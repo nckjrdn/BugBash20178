@@ -1,0 +1,25 @@
+<EntityDescriptor entityID="http://sts.brainshark.com/adfs/services/trust" 
+    xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" 
+    xmlns="urn:oasis:names:tc:SAML:2.0:metadata" ID="_9f9b1743-3322-4431-a499-f11eab18d94c">   
+    <IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">       
+        <KeyDescriptor use="signing">           
+            <KeyInfo 
+                xmlns="http://www.w3.org/2000/09/xmldsig#">               
+                <X509Data>                   
+                    <X509Certificate>MIIC4DCCAcigAwIBAgIQHt6D1Q30K4xMvZ2H4s1rUjANBgkqhkiG9w0BAQsFADAsMSowKAYDVQQDEyFBREZTIFNpZ25pbmcgLSBzdHMuYnJhaW5zaGFyay5jb20wHhcNMTYwMTI5MDMzODEzWhcNMTkwMTI4MDMzODEzWjAsMSowKAYDVQQDEyFBREZTIFNpZ25pbmcgLSBzdHMuYnJhaW5zaGFyay5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDEPBOuTw6IJVfFvz37u4TCZ5UpAs5p8Av+3q8RYvu/Ef1I5EsO/2gj8Ixxn1zbtTuOtlAxOTs1zoMuy3Pr9/MeHER30bw/4N5dEp+XcbIKVovCk0yWB8E14U5t5M2J2n0w7KzKeJC2QPN7VizQ3edSI4n2vaiMu9SSnaRiDMLwLb7HOf+wkWUv657+/wFlmPs4t32Cw3jJDOAiJ1DJhCIJCTe0/lYtRETu3CE4DZ1dGLSC+ze8kIeg6B0VF01xtsXb+khcbg0tAn0lu2jBmRieykTVI5ghS7cYS6ONl9X4YND6/DO/LlErQIr1N1PmCPI7FsWOxaqI/yTjpQsQHdh1AgMBAAEwDQYJKoZIhvcNAQELBQADggEBALSb1PXGlBP3l5y+Po2F3l3OrEPNrZ9wJ54joPN1xx3kiPnIoIpCxAkNw38EkWGk6uhyRxbytDyYAwdA3oU/DGNTEkaZMKgBp6oc+6ha5hh29Y1BwtTOvNw9mxg0iIsa61BBZ+kXbWo7SPN5G/oEaDayHr0cj5fdAEgInA+M0vxFFw4DryfqgUB2b1Ps2l2WDTxhPhdt+FjTKkbEMfrQmfDONvPkguEdKFmwuDXr/b+m5Z7c0B5IMdLLNg2jkZz4vqlCdyzMuvGeOsM+0SMEBpksn8EyqM46j+gRlfG+tUo2qVIPauCwD4hVL0bgjNmfN7sKX/F++k3jtGab2Cb72Yo=</X509Certificate>               
+                </X509Data>           
+            </KeyInfo>       
+        </KeyDescriptor>       
+        <KeyDescriptor use="encryption">           
+            <KeyInfo 
+                xmlns="http://www.w3.org/2000/09/xmldsig#">               
+                <X509Data>                   
+                    <X509Certificate>MIIC4DCCAcigAwIBAgIQHt6D1Q30K4xMvZ2H4s1rUjANBgkqhkiG9w0BAQsFADAsMSowKAYDVQQDEyFBREZTIFNpZ25pbmcgLSBzdHMuYnJhaW5zaGFyay5jb20wHhcNMTYwMTI5MDMzODEzWhcNMTkwMTI4MDMzODEzWjAsMSowKAYDVQQDEyFBREZTIFNpZ25pbmcgLSBzdHMuYnJhaW5zaGFyay5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDEPBOuTw6IJVfFvz37u4TCZ5UpAs5p8Av+3q8RYvu/Ef1I5EsO/2gj8Ixxn1zbtTuOtlAxOTs1zoMuy3Pr9/MeHER30bw/4N5dEp+XcbIKVovCk0yWB8E14U5t5M2J2n0w7KzKeJC2QPN7VizQ3edSI4n2vaiMu9SSnaRiDMLwLb7HOf+wkWUv657+/wFlmPs4t32Cw3jJDOAiJ1DJhCIJCTe0/lYtRETu3CE4DZ1dGLSC+ze8kIeg6B0VF01xtsXb+khcbg0tAn0lu2jBmRieykTVI5ghS7cYS6ONl9X4YND6/DO/LlErQIr1N1PmCPI7FsWOxaqI/yTjpQsQHdh1AgMBAAEwDQYJKoZIhvcNAQELBQADggEBALSb1PXGlBP3l5y+Po2F3l3OrEPNrZ9wJ54joPN1xx3kiPnIoIpCxAkNw38EkWGk6uhyRxbytDyYAwdA3oU/DGNTEkaZMKgBp6oc+6ha5hh29Y1BwtTOvNw9mxg0iIsa61BBZ+kXbWo7SPN5G/oEaDayHr0cj5fdAEgInA+M0vxFFw4DryfqgUB2b1Ps2l2WDTxhPhdt+FjTKkbEMfrQmfDONvPkguEdKFmwuDXr/b+m5Z7c0B5IMdLLNg2jkZz4vqlCdyzMuvGeOsM+0SMEBpksn8EyqM46j+gRlfG+tUo2qVIPauCwD4hVL0bgjNmfN7sKX/F++k3jtGab2Cb72Yo=</X509Certificate>               
+                </X509Data>           
+            </KeyInfo>       
+        </KeyDescriptor>       
+        <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sts.brainshark.com/adfs/ls/"/>       
+        <NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</NameIDFormat>       
+        <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sts.brainshark.com/adfs/ls/"/>   
+    </IDPSSODescriptor>
+</EntityDescriptor>
