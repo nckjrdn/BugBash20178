@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://blancco--PreLive.cs82.my.salesforce.com" validUntil="2028-01-08T11:55:53.076Z" >
+   <IDPSSODescriptor WantAuthnRequestsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <KeyDescriptor use="signing">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIErDCCA5SgAwIBAgIOAV97h2X2AAAAAHB78SQwDQYJKoZIhvcNAQELBQAwgZAxKDAmBgNVBAMMH1NlbGZTaWduZWRDZXJ0XzAyTm92MjAxN18wNjU5NTAxGDAWBgNVBAsMDzAwRDNFMDAwMDAwMGFNVTEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQwwCgYDVQQGEwNVU0EwHhcNMTcxMTAyMDY1OTUxWhcNMTgxMTAyMDAwMDAwWjCBkDEoMCYGA1UEAwwfU2VsZlNpZ25lZENlcnRfMDJOb3YyMDE3XzA2NTk1MDEYMBYGA1UECwwPMDBEM0UwMDAwMDAwYU1VMRcwFQYDVQQKDA5TYWxlc2ZvcmNlLmNvbTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzELMAkGA1UECAwCQ0ExDDAKBgNVBAYTA1VTQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJ/nN6PZmSCszlQRXTJyJ+8vj+YUu7WpIQc0EMFuwa9cT06kvl/JRHK7lyaLDoK8xKJf7LuzqpBBsxbFj9c6wciMWUPTVc10r7g7/Hmaz3ImPtxPq6CdjioSaUdLNNk/zrmEbFo3zT5fal/WYnB6+XcQXzCK5ofJH2OIhOZaggY2EBw+A/wQ7hTd+TcIm8i4vND3xI1G/2Z5O7TWob8pAST/S/sqqO7CnTSxYFQMAaGcwGQESMfFkpc9+cQH80YF5VaicqawHjgG/67Ezv5en3FMfYFugC81yLGtUdBPKoGSfpzb1GFRifEELy+SEIxyh+1UssLDSiDeS+XX+5m36jMCAwEAAaOCAQAwgf0wHQYDVR0OBBYEFDxgUAJ6vT9wN1S3aw1yaU0P7ipvMA8GA1UdEwEB/wQFMAMBAf8wgcoGA1UdIwSBwjCBv4AUPGBQAnq9P3A3VLdrDXJpTQ/uKm+hgZakgZMwgZAxKDAmBgNVBAMMH1NlbGZTaWduZWRDZXJ0XzAyTm92MjAxN18wNjU5NTAxGDAWBgNVBAsMDzAwRDNFMDAwMDAwMGFNVTEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQwwCgYDVQQGEwNVU0GCDgFfe4dl9gAAAABwe/EkMA0GCSqGSIb3DQEBCwUAA4IBAQAGEk8j46LpCRxike6Vq0n2/q4ylQfQY2dkEvJ9oZO666YhgxdFLBrFeGU9EGZkxRROy6QNxoDPRCTkinpbcjHw5fuTeukrATQa4Z3RkqCftRZ8YEn4mf/qG1u8hV1toJ1LzHgU9vHASPAe5+QJT1HbnpB1R40VXrBs2VbDoUiLliXo32iBn7ok18ET0DvcG+hm2ZX7xR0mQruNkH0mSPtZeZkJ3cMw67W2pUSjhceJBWlgTId8gJIQ+YKXe/ncq5UpxX+No2nZPne/HG5VMvI0y4Wv+mv9fDY4VgzDCIHLS572a6TOJihp28tMcGoCDoc7/TCf6/xKC5DUi8H7PSgd</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </KeyDescriptor>
+      <NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</NameIDFormat>
+      <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://prelive-channeltest.cs82.force.com/idp/endpoint/HttpPost"/>
+      <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://prelive-channeltest.cs82.force.com/idp/endpoint/HttpRedirect"/>
+   </IDPSSODescriptor>
+</EntityDescriptor>
